@@ -12,6 +12,10 @@ RideEase is a ride-sharing platform that connects users with nearby drivers. Bui
 - Socket-based live location updates
 - Interactive maps integration
 
+## Demo Link 
+
+- Here is the demo video link of this project :  https://drive.google.com/file/d/1vzQ9c5HjFkoGSSsGuXt5L2T1COzaLrSp/view?usp=sharing
+
 ## Tech Stack
 
 ### Frontend
@@ -99,6 +103,38 @@ node start server.js
 cd frontend
 npm run dev
 ```
+
+6. User Preview
+
+```bash
+"click on :" http://localhost:5173/
+```
+
+7. Captain Preview
+
+```bash
+Must follow these steps:
+Step 1: In VS Code, open OUTPUT > PORT from terminal
+Step 2: Forward port 5173 and make it public:
+        - Click on 'PORTS' tab in the terminal
+        - Find or Write port 5173
+        - Right-click and select 'Port Visibility' → 'Public'
+        - Or run command: npm run dev -- --host
+
+Step 3: Open the URL in a different browser or incognito mode:
+        - Use a different browser (e.g., Firefox if using Chrome)
+        - Or use incognito/private window
+        - Sign in with different Google account
+
+Step 4: Access captain interface by creating captain account
+
+```
+![Forward Port](frontend/public/port_forwarding_demo.png)
+
+8. Facing Issues 
+
+- Follow this demo video : https://drive.google.com/file/d/1vzQ9c5HjFkoGSSsGuXt5L2T1COzaLrSp/view?usp=sharing
+
 
 ## API Documentation
 
