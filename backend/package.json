@@ -1,36 +1,28 @@
 {
-  "name": "ride-ease",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "\"A ride-sharing app that connects drivers and passengers for convenient transportation.\"",
+  "main": "server.js",
   "type": "module",
-  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
-  "keywords": [
-    "backend",
-    "mongodb",
-    "express",
-    "react",
-    "node",
-    "mongoose"
-  ],
-  "author": "Bharti Jayprakash",
+  "keywords": [],
+  "author": "Yuvraj Singh, Bharti Jayprakash, Yash Porwal, Lakshay Shrivastava",
   "license": "ISC",
+  "description": "A backend service for the Ride Ease application, which is a ride-sharing platform. This service handles user authentication, ride management, and real-time communication between users.",
   "dependencies": {
     "axios": "^1.7.9",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "express-validator": "^7.2.1",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.10.1",
-    "multer": "^1.4.5-lts.1"
-  },
-  "devDependencies": {
+    "mongoose": "^8.9.3",
     "nodemon": "^3.1.9",
-    "prettier": "^3.5.1"
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
   }
 }
